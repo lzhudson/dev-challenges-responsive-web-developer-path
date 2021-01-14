@@ -1,0 +1,13 @@
+{
+  "name": "404-not-found",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hudson Holanda <hudsonholanda55@gmail.com> (https://lzhudson.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

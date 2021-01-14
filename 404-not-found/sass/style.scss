@@ -1,0 +1,102 @@
+@import './reset';
+@import './font';
+@import './variables';
+@import './functions';
+
+.header {
+  padding: calculateRem(40px) calculateRem(0px) calculateRem(0px) calculateRem(77px);
+  @media (max-width: 425px) {
+    padding: calculateRem(20px) calculateRem(0px) calculateRem(0px) calculateRem(24px);
+  }
+  &__text {
+    font-family: $fontInconsolota;
+    text-transform: uppercase;
+    font-size: calculateRem(24px);
+  }
+}
+
+.hero {
+  margin-top: calculateRem(200px);
+  @media (max-width: 425px) {
+    margin-top: calculateRem(64px);
+  }
+  &__container {
+    padding: calculateRem(40px) calculateRem(0px) calculateRem(0px) calculateRem(77px);
+    display: flex;
+    @media (max-width: 425px) {
+      padding: calculateRem(0px) calculateRem(0px) calculateRem(0px) calculateRem(24px);
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  &__image {
+    width: 540px;
+    margin-right: calculateRem(120px);
+    @media (max-width: 425px) {
+      width: 285px;
+      margin-right: 0;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    &__title {
+      font-family: $fontSpaceMono;
+      font-weight: bold;
+      font-size: calculateRem(64px);
+      line-height: calculateRem(95px);
+      letter-spacing: -0.035em;
+      color: $grayColor1;
+      @media (max-width: 425px) {
+        font-size: calculateRem(48px);
+        line-height: calculateRem(70px);
+        margin-top: calculateRem(60px);
+      }
+    }
+    &__text {
+      margin-top: calculateRem(36px);
+      font-family: $fontSpaceMono;
+      font-size: calculateRem(24px);
+      line-height: calculateRem(36px);
+      letter-spacing: -0.035em;
+      color: $grayColor2;
+      font-weight: normal;
+      max-width: 380px;
+      @media (max-width: 425px) {
+        font-size: calculateRem(18px);
+        line-height: calculateRem(26px);
+        margin-top: calculateRem(30px);
+      }
+    }
+    &__button {
+      max-width: 215px;
+      width: 100%;
+      background-color: $grayBackgroundColor1;
+      height: 70px;
+      margin-top: calculateRem(64px);
+      font-family: $fontSpaceMono;
+      color: #FFF;
+      text-transform: uppercase;
+      letter-spacing: -0.035em;
+      font-size: calculateRem(14px);
+      line-height: calculateRem(21px);
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+footer {
+  .copyright {
+    text-align: center;
+    font-family: $fontMontserrat;
+    font-size: calculateRem(14px);
+    font-weight: 600;
+    margin-top: calculateRem(300px);
+    margin-bottom: calculateRem(40px);
+    @media (max-width: 425px) {
+      margin-top: calculateRem(95px);
+    }
+  }
+}
