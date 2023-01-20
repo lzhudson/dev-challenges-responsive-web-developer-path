@@ -40,7 +40,8 @@ body {
     @media (max-width: 425px) {
       .hero__image {
         width: 285px;
-        margin-right: 0; } }
+        margin-right: 0;
+        margin-left: 20px; } }
   .hero__content {
     display: flex;
     flex-direction: column; }
@@ -50,7 +51,8 @@ body {
       font-size: 4rem;
       line-height: 5.9375rem;
       letter-spacing: -0.035em;
-      color: #333333; }
+      color: #333333;
+      max-width: 586px; }
       @media (max-width: 425px) {
         .hero__content__title {
           font-size: 3rem;
