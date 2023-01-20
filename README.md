@@ -21,7 +21,7 @@ Below we have all the challenges that are part of this package:
 
 
 Below I leave a to-do list regarding the challenges I have already completed:
-* [ ] - [404 Not Found](https://github.com/lzhudson/dev-challenges-responsive-web-developer-path/tree/master/404-not-found)
+* [X] - [404 Not Found](https://github.com/lzhudson/dev-challenges-responsive-web-developer-path/tree/master/404-not-found)
 * [ ] - My Team Page
 * [ ] - Interior Consultant
 * [ ] - Recipe Page
