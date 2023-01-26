@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Poppins', sans-serif; }
+
+.header {
+  padding: 2.5rem 0rem 0rem 4.8125rem; }
+  @media (max-width: 425px) {
+    .header {
+      padding: 1.25rem 0rem 0rem 1.5rem; } }
+  .header__text {
+    font-family: "Inconsolata", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+
+.hero {
+  margin-top: 12.5rem; }
+  @media (max-width: 425px) {
+    .hero {
+      margin-top: 4rem; } }
+  .hero__container {
+    padding: 2.5rem 0rem 0rem 4.8125rem;
+    display: flex; }
+    @media (max-width: 425px) {
+      .hero__container {
+        padding: 0rem 0rem 0rem 1.5rem;
+        flex-direction: column;
+        justify-content: center; } }
+  .hero__image {
+    width: 540px;
+    margin-right: 7.5rem; }
+    @media (max-width: 425px) {
+      .hero__image {
+        width: 285px;
+        margin-right: 0;
+        margin-left: 20px; } }
+  .hero__content {
+    display: flex;
+    flex-direction: column; }
+    .hero__content__title {
+      font-family: "Space Mono", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      line-height: 5.9375rem;
+      letter-spacing: -0.035em;
+      color: #333333;
+      max-width: 586px; }
+      @media (max-width: 425px) {
+        .hero__content__title {
+          font-size: 3rem;
+          line-height: 4.375rem;
+          margin-top: 3.75rem; } }
+    .hero__content__text {
+      margin-top: 2.25rem;
+      font-family: "Space Mono", sans-serif;
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      letter-spacing: -0.035em;
+      color: #4F4F4F;
+      font-weight: normal;
+      max-width: 380px; }
+      @media (max-width: 425px) {
+        .hero__content__text {
+          font-size: 1.125rem;
+          line-height: 1.625rem;
+          margin-top: 1.875rem; } }
+    .hero__content__button {
+      max-width: 215px;
+      width: 100%;
+      background-color: #333333;
+      height: 70px;
+      margin-top: 4rem;
+      font-family: "Space Mono", sans-serif;
+      color: #FFF;
+      text-transform: uppercase;
+      letter-spacing: -0.035em;
+      font-size: 0.875rem;
+      line-height: 1.3125rem;
+      font-weight: bold;
+      border: none;
+      cursor: pointer; }
+
+footer .copyright {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 18.75rem;
+  margin-bottom: 2.5rem; }
+  @media (max-width: 425px) {
+    footer .copyright {
+      margin-top: 5.9375rem; } }
