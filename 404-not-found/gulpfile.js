@@ -14,6 +14,16 @@ function watchForChanges() {
   gulp.watch('*.html').on('change', browserSync.reload);
 }
 
+function moveFilesToPublicFolder() {
+  const files = [
+    'index.html',
+    './images',
+    './css'
+  ];
+  return gulp.src(files)
+    .pipe(gulp.dest('../public/404-not-found'));
+}
+
 function sync() {
   browserSync.init({
     server: {
@@ -23,3 +33,4 @@ function sync() {
 }
 
 exports.default = (gulp.series(style), gulp.parallel(sync, watchForChanges));
+exports.build = (gulp.series(moveFilesToPublicFolder));
