@@ -17,10 +17,10 @@ function watchForChanges() {
 function moveFilesToPublicFolder() {
   const files = [
     'index.html',
-    './images',
-    './css'
+    './images/**',
+    './css/**'
   ];
-  return gulp.src(files)
+  return gulp.src(files, { base: './' })
     .pipe(gulp.dest('../public/404-not-found'));
 }
 
