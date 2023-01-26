@@ -30,4 +30,14 @@ Below I leave a to-do list regarding the challenges I have already completed:
 * [ ] - Edie homepage
 * [ ] - Portfolio
 
+Demos url:
+* [X] - [404 Not Found](https://bespoke-ganache-55583b.netlify.app/404-not-found/)
+* [ ] - My Team Page
+* [ ] - Interior Consultant
+* [ ] - Recipe Page
+* [ ] - My Gallery
+* [ ] - Checkout Page
+* [ ] - Edie homepage
+* [ ] - Portfolio
+
 Note: Inside each repository there is a readme to run the project.
